@@ -1,0 +1,28 @@
+@import 'normalize';
+@import 'helpers/colors';
+@import 'helpers/buttons';
+@import 'header/header';
+@import "services/services";
+@import "portfolio/portfolio";
+
+$content-size: 1110px;
+$template-size: 1600px;
+
+body {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.header,
+.page-content,
+.footer {
+  max-width: $template-size;
+  width: 100%;
+  margin: auto;
+}
+
+.container {
+  max-width: $content-size;
+  width: 100%;
+  margin: 0 auto;
+}

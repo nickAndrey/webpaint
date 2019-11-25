@@ -1,0 +1,54 @@
+.header {
+  &__nav {
+    background: $nav-bkg;
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    .nav__list {
+      display: inline-flex;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      .item {
+        text-transform: uppercase;
+        font-weight: 900;
+        &:not(&:last-child) {
+          margin-right: 50px;
+        }
+        &__link {
+          text-decoration: none;
+          color: $text-color;
+          &.active {
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+  &__banner {
+    background: $banner-bkg;
+    text-align: center;
+    color: $text-color;
+    font-size: 40px;
+    padding: 60px 0;
+    h1 {
+      margin: 0 0 50px 0;
+      font-weight: 300;
+      span {
+        font-weight: 900;
+      }
+    }
+    p {
+      margin: 0;
+      font-weight: 300;
+      font-style: italic;
+    }
+    .go-portfolio {
+      text-decoration: none;
+      padding: 20px 44px;
+      font-size: 14px;
+      margin-top: 60px;
+      display: inline-flex;
+    }
+  }
+}
