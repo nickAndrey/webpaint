@@ -1,66 +1,68 @@
-[
-  {
-    "images": [
-      {
-        "src": "/img/filter/layer1.jpg",
-        "alt": "img-layer1",
-        "label": "graphic"
-      },
-      {
-        "src": "/img/filter/layer4.jpg",
-        "alt": "img-layer4",
-        "label": "graphic"
-      },
-      {
-        "src": "/img/filter/layer7.jpg",
-        "alt": "img-layer7",
-        "label": "graphic"
-      },
-      {
-        "src": "/img/filter/layer10.jpg",
-        "alt": "img-layer10",
-        "label": "graphic"
-      },
-      {
-        "src": "/img/filter/layer3.jpg",
-        "alt": "img-layer3",
-        "label": "motion"
-      },
-      {
-        "src": "/img/filter/layer6.jpg",
-        "alt": "img-layer6",
-        "label": "motion"
-      },
-      {
-        "src": "/img/filter/layer9.jpg",
-        "alt": "img-layer9",
-        "label": "motion"
-      },
-      {
-        "src": "/img/filter/layer12.jpg",
-        "alt": "img-layer12",
-        "label": "motion"
-      },
-      {
-        "src": "/img/filter/layer2.jpg",
-        "alt": "img-layer2",
-        "label": "illustration"
-      },
-      {
-        "src": "/img/filter/layer5.jpg",
-        "alt": "img-layer5",
-        "label": "illustration"
-      },
-      {
-        "src": "/img/filter/layer8.jpg",
-        "alt": "img-layer8",
-        "label": "illustration"
-      },
-      {
-        "src": "/img/filter/layer11.jpg",
-        "alt": "img-layer11",
-        "label": "illustration"
-      }
-    ]
-  }
-]
+{
+  "graphic": [
+    {
+      "src": "/img/filter/layer1.jpg",
+      "alt": "img-layer1",
+      "label": "graphic"
+    },
+    {
+      "src": "/img/filter/layer4.jpg",
+      "alt": "img-layer4",
+      "label": "graphic"
+    },
+    {
+      "src": "/img/filter/layer7.jpg",
+      "alt": "img-layer7",
+      "label": "graphic"
+    },
+    {
+      "src": "/img/filter/layer10.jpg",
+      "alt": "img-layer10",
+      "label": "graphic"
+    }
+  ],
+  "motion": [
+    {
+      "src": "/img/filter/layer3.jpg",
+      "alt": "img-layer3",
+      "label": "motion"
+    },
+    {
+      "src": "/img/filter/layer6.jpg",
+      "alt": "img-layer6",
+      "label": "motion"
+    },
+    {
+      "src": "/img/filter/layer9.jpg",
+      "alt": "img-layer9",
+      "label": "motion"
+    },
+    {
+      "src": "/img/filter/layer12.jpg",
+      "alt": "img-layer12",
+      "label": "motion"
+    }
+  ],
+  "illustration": [
+    {
+      "src": "/img/filter/layer2.jpg",
+      "alt": "img-layer2",
+      "label": "illustration"
+    },
+    {
+      "src": "/img/filter/layer5.jpg",
+      "alt": "img-layer5",
+      "label": "illustration"
+    },
+    {
+      "src": "/img/filter/layer8.jpg",
+      "alt": "img-layer8",
+      "label": "illustration"
+    },
+    {
+      "src": "/img/filter/layer11.jpg",
+      "alt": "img-layer11",
+      "label": "illustration"
+    }
+  ]
+}
